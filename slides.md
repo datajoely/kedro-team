@@ -1,8 +1,8 @@
 ---
-theme: default
+theme: apple-basic
 ---
 
-<h1>Meet the team</h1>
+<h1 class='pt-5 pb-5'>Meet the team</h1>
 
 <div class="grid grid-cols-1">
    <div>
@@ -36,3 +36,5 @@ theme: default
     </div>
   </div>
 </div>
+
+<Socials/>
