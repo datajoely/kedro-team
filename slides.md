@@ -3,6 +3,7 @@ theme: default
 ---
 
 <h1>Meet the team</h1>
+
 <div class="grid grid-cols-1">
    <div>
       <div class="flex p-2 gap-2 m-2">
