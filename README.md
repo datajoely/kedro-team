@@ -1,11 +1,13 @@
-# Welcome to [Slidev](https://github.com/slidevjs/slidev)!
+# Kedro team members
 
-To start the slide show:
+- We use [Slidev](https://github.com/slidevjs/slidev) to render this page
+- Check out their [getting started](https://sli.dev/guide/#scaffolding-your-first-presentation) docs
 
-- `npm install`
-- `npm run dev`
-- visit http://localhost:3030
+# How to Add/Remove/Change people
 
-Edit the [slides.md](./slides.md) to see the changes.
-
-Learn more about Slidev on [documentations](https://sli.dev/).
+- Go to `slides.md`
+- Define / alter an existing person by paraterising the `<Profile />` component:
+    ```html
+    <Profile name="Person" role="King" github="github-user" country="🏴‍☠️"/>
+    ```
+- Place the associated image of that at the following location: `public/kedro-team/{person}.png`
