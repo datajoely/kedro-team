@@ -36,7 +36,6 @@
         >
           <KedroIcon class="w-6 h-6 inline rounded-full bg-black" />
         </a>
-        <p class="text-0.6em inline">Open Kedro Retro #1 June 2021</p>
     </div>
   </span>
 </template>

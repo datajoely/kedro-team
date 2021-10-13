@@ -16,36 +16,24 @@ const props = defineProps({
   }
 })
 const gh = "https://github.com/"+props.github
-const img = "profiles/"+props.name.toString().replace('\s+', '_').toLowerCase()+".png";
+const img = "team/"+props.name.toString().replace('\s+', '_').toLowerCase()+".png";
 </script>
 
 <template>
-<div class="justify-center">
-<div class="w-24 shadow-lg">
-    <div class="bg-dark-500 rounded-lg flex flex-col">
-    <span class="relative left-14 -top-1">
-    <a :href="gh" target="_blank"
-    class="icon-btn !border-none">
-    <carbon-logo-github/>
-    </a>
-    </span>
-        <div class="-mt-5">
+
+<div class="w-5em shadow-lg bg-gradient-to-tr from-gray-50 to-gray-100 border border-gray-200 border-opacity-100 rounded-lg -mt-3">
+    <div class="relative p-2 mt-2">
+        <span class="absolute -top-1.5 -right-0.5 text-sm"><a :href="gh" target="_blank" class="icon-btn !border-none"> <carbon-logo-github/></a></span>
         <img 
-            class="w-12 h-12 rounded-full mx-auto border border-yellow-500 -m-1" 
+            class="w-12 h-12 rounded-full mx-auto border border-blue-400 border-1 border-opacity-100" 
             :src="img" 
             :alt=props.name
             hover="animate-spin"
-        >
-            <span>
-              <p class="text-center">
-            <span class="text-1.0em ">{{name}}</span>
-            <br>
-            <span class="text-0.7em text-center">{{role}}</span>
-            <br><span>{{country}}</span>
-            </p>
-            </span>
-        </div>
+        > 
+          <p class="text-0.8em text-center">{{name}}<br></p>
+          <p class="text-0.6em text-center font-bold">{{role}}</p>
+          <p class="text-0.6em text-center">{{country}}</p>
     </div>
 </div>
-</div>
+
 </template>
