@@ -1,5 +1,6 @@
 ---
 theme: apple-basic
+colorSchema: 'light'
 ---
 
 <h1 class='pt-5 pb-5'>Meet the team</h1>
