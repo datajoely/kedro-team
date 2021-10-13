@@ -24,7 +24,7 @@ colorSchema: 'light'
         <Profile name="Susanna" role="Front end" github="studioswong" country="🇭🇰 🇦🇺"/>
         <Profile name="Rashida" role="Front end" country="🇮🇳" github="rashidakanchwala"/>
         <Profile name="Tynan" role="Front end" country="🇺🇸" github="tynandebold"/>
-        <Profile name="Ahdra" role="Intern" country="🇰🇪" github="tynandebold"/>
+        <Profile name="Ahdra" role="Intern" country="🇰🇪" github="AhdraMeraliQB"/>
       </div>
    </div>
    <div>
