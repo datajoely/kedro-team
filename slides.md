@@ -13,7 +13,6 @@ colorSchema: 'light'
         <Profile name="Lorena" role="SWE" github="lorenabalan" country="🇷🇴"/>
         <Profile name="Merel" role="SWE" github="MerelTheisenQB" country="🇳🇱"/>
         <Profile name="Antony" role="DS SWE" github="AntonyMilneQB" country="🇬🇧"/>
-        <Profile name="Jiri" role="DE SWE" github="jiriklein" country="🇨🇿"/>
         <Profile name="Sajid" role="Intern" github="SajidAlamQB" country="🇬🇧"/>
       </div>
    </div>
